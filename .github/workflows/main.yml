@@ -22,4 +22,4 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true
     - name: Run zeitwerk:check
-      run: rails zeitwerk:check --trace
+      run: ./bin/rails zeitwerk:check --trace
