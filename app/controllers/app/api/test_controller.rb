@@ -1,2 +1,2 @@
-class App::Api::AisController < ApplicationController
+class App::Api::TestController < ApplicationController
 end
