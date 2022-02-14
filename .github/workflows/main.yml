@@ -21,7 +21,5 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true
-    - name: Run rubocop
-      run: bundle exec rubocop
     - name: Run zeitwerk:check
       run: rails zeitwerk:check --trace
